@@ -1,6 +1,7 @@
 import './App.css';
 import LikeImage from './components/LikeImage';
 import LikePost from './components/LikePost';
+import HocLikeImage from './components/HocLikeImage';
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <div className='buttons'>
         <LikePost/>
         <LikeImage/>
-      </div>
+        <HocLikeImage/>
+        </div>
     </div>
   );
 }
